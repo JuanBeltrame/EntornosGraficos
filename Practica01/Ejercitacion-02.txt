@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------------------
+Ejercitacion 02
+--------------------------------------------------------------------------------------------
+2.a) <!-- Código controlado el día 12/08/2009 -→
+
+. Esta etiqueta es para comentarios, puede ir en cualquier parte del codigo
+. El elemento es: <!-- Código controlado el día 12/08/2009 -→
+. Las etiquetas son: <!-- -->
+. Atributos: En este caso no hay ninguno
+--------------------------------------------------------------------------------------------
+2.b) <div id="bloque1">Contenido del bloque1</div>
+
+. Esta etiqueta es para agrupar grandes bloques de contenido o cuando hay varios elementos que se tienen que agrupar. 
+. El elemento es: <div id="bloque1">Contenido del bloque1</div>
+. Las etiquetas son: <div></div>
+. Atributos: id="bloque1" El atributo id en HTML se utiliza para asignar un identificador único a un elemento HTML
+--------------------------------------------------------------------------------------------
+2.c) <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+. Esta etiqueta es la para mostrar imagenes
+. El elemento es: <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+. Las etiquetas son: <img />
+. Atributos: 
+    - src= (Source) En su valor se coloca la ruta donde se encuentra la imagen. 
+    - alt= (Alternative) Este atributo proporciona un texto alternativo para la imagen. Es importante para la accesibilidad, ya que describe el contenido de la imagen para usuarios que no pueden verla
+    - id= para asignar un identificador único a un elemento HTML
+    - name= Se utiliza para proporcionar un nombre de referencia a la imagen
+    - width= (Ancho) Este atributo define el ancho de la imagen en píxeles. 
+    - height= (Altura) Este atributo define la altura de la imagen en píxeles
+    - longdesc="detalles.htm": Este atributo proporciona una descripción detallada de la imagen. 
+--------------------------------------------------------------------------------------------
+2.d) <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+     <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+. Esta etiqueta se utiliza para proporcionar metadatos sobre el documento HTML. 
+Los metadatos son información sobre el documento que no se muestra directamente en la página web, 
+pero que puede ser útil para los navegadores web, motores de búsqueda y otros servicios.
+. El elemento es: <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />  
+. Y el otro elemento es: <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+. Las etiquetas son: <meta />
+. Atributos:
+    - name="keywords": Se utiliza para indicar el propósito o el significado del metadato proporcionado en el atributo content. 
+                       Es decir, name especifica el nombre del metadato que se está proporcionando.
+    - lang="es": Este atributo especifica el idioma de las palabras clave proporcionadas. En este caso, el idioma es español.
+    - content="casa, compra, venta, alquiler": Contiene la lista de palabras clave separadas por comas que describen el contenido del documento. 
+               Estas palabras clave son relevantes para la búsqueda y ayudan a los motores de búsqueda a indexar 
+               y clasificar el contenido del documento.
+    - http-equiv= Este atributo especifica un valor que simula el comportamiento de una cabecera HTTP. 
+                  En este caso, indica la fecha y hora de caducidad del contenido del documento.
+    - content="16-Sep-2019 7:49 PM": 
+--------------------------------------------------------------------------------------------
+2.e) <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+
+. Esta etiqueta define un hipervinculo en HTML.
+. El elemento es: <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+. Las etiquetas son: <a></a>
+. Atributos:
+    - href= (hypertext reference) Este atributo href especifica la URL a la que el enlace apunta. En este caso, 
+            el enlace apunta a "http://www.e-style.com.ar/resumen.html", lo que significa que al hacer clic en el enlace, el navegador abrirá esa URL.
+    - type="text/html": Este atributo type especifica el tipo de contenido del recurso al que apunta el enlace. 
+                        En este caso, se establece como "text/html", lo que indica que el recurso enlazado es un documento HTML. 
+    - hreflang="es": Este atributo hreflang especifica el idioma del recurso al que apunta el enlace. 
+                     En este caso, se establece como "es", lo que indica que el recurso enlazado está en español.      
+    - charset="utf-8": Este atributo charset especifica la codificación de caracteres del recurso al que apunta el enlace.
+    - rel="help": Este atributo rel especifica la relación entre el documento actual y el recurso al que apunta el enlace. 
+                  En este caso, se establece como "help", lo que podría indicar que el recurso enlazado proporciona información de ayuda relacionada con el contenido del documento actual.
+    - Resumen HTML: Este es el contenido del enlace, que se mostrará como texto visible en la página. 
+--------------------------------------------------------------------------------------------
+2.f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">A</th>
+      <th scope="col">B</th>
+      <th scope="col">C</th>
+    </tr>
+    <tr>
+      <th scope="row">1o</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">2o</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+
+. Esta etiqueta es para crear tablas
+. El elemento es: 
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">A</th>
+      <th scope="col">B</th>
+      <th scope="col">C</th>
+    </tr>
+    <tr>
+      <th scope="row">1o</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">2o</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+
+. Las etiquetas son: 
+    - <table></table>: Para crear tablas
+    - <table width="200" summary="Datos correspondientes al ejercicio vencido">: Define una tabla con un ancho de 200 píxeles y proporciona un resumen descriptivo del contenido de la tabla, 
+    - <caption align="top">Título</caption>: Define un título para la tabla, que se posiciona en la parte superior (align="top"). En este caso, el título es "Título".
+    - <tr></tr>: Define el comienzo y el final de una fila de la tabla.
+    - <th scope="col">&nbsp;</th>: Define una celda de encabezado en la primera fila de la tabla. El atributo "scope" indica que esta celda es parte del encabezado de la columna. La entidad &nbsp; representa un espacio en blanco no rompible, lo que significa que la celda está vacía, 
+    - <th scope="row">1o</th>: Define una celda de encabezado en la primera columna de la tabla. El atributo "scope" indica que esta celda es parte del encabezado de la fila. El texto "1o" indica el primer elemento en la primera columna.
+    - <td></td>: En cada fila (<tr>) se especifican los contenidos de las celdas (<td>). 

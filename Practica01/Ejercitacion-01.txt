@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------------------
+Ejercitacion 01
+--------------------------------------------------------------------------------------------
+1) Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?   
+
+    - HTML, que significa "HyperText Markup Language" en inglés, es el lenguaje de marcado estándar utilizado para crear y diseñar páginas web. 
+      Proporciona la estructura básica para el contenido web al definir diversos elementos y sus propiedades dentro de un documento.
+
+    - HTML fue creado por Tim Berners-Lee en 1991 mientras trabajaba en el CERN (Organización Europea para la Investigación Nuclear) en Ginebra, Suiza. 
+      Fue diseñado como un medio para compartir documentos científicos de manera eficiente entre investigadores.
+
+    - HTML 2.0: Fue publicado en 1995 por el World Wide Web Consortium (W3C). 
+                Introdujo muchas de las características básicas que todavía se utilizan en HTML hoy en día, como los formularios y las imágenes.
+
+    - HTML 3.2: Fue publicado en 1997. 
+                Esta versión incluyó algunas mejoras en comparación con HTML 2.0, como soporte para tablas y applets de Java.
+
+    - HTML 4.01: Fue publicado en 1999 y posteriormente revisado en 2000. 
+                 Esta versión incluyó mejoras significativas en la especificación del lenguaje, como mejoras en formularios, hojas de estilo CSS y accesibilidad.
+
+    - XHTML 1.0: Publicado en 2000, XHTML (Extensible HyperText Markup Language) es una reformulación de HTML 4.01 
+                 utilizando la sintaxis XML. Fue diseñado para ser más estricto y limpio en su sintaxis.
+
+    - HTML5: Es la versión actual y más reciente de HTML. 
+             Fue introducido como un borrador en 2008 y oficialmente publicado como una recomendación del W3C en 2014. 
+             HTML5 introduce una serie de nuevas características y elementos, como audio y video nativos, etiquetas semánticas (como <header>, <footer>, <nav>, etc.d), 
+             soporte para gráficos vectoriales escalables (SVG), capacidades de almacenamiento local (localStorage y sessionStorage), y mucho más.
+--------------------------------------------------------------------------------------------
+2) ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML? 
+
+    - Estos principios se enfocan en la accesibilidad, la legibilidad, la corrección y la usabilidad, 
+      con el objetivo de garantizar que las páginas web sean universales y compatibles con una amplia gama de navegadores y dispositivos.
+
+      1. Separación del contenido y la presentación: 
+            El contenido textual de la página web debe estar separado de su presentación visual. 
+            Esto se logra utilizando HTML para estructurar el contenido y CSS para definir su apariencia. 
+            De esta manera, el contenido puede adaptarse a diferentes dispositivos y navegadores sin necesidad de modificar el código HTML.
+
+      2. Uso de elementos semánticos:
+            Se deben utilizar los elementos HTML de manera semántica, es decir, de acuerdo a su significado real. 
+            Esto significa que el código HTML debe reflejar la estructura y el significado del contenido, no solo su apariencia. 
+            Por ejemplo, se debe usar la etiqueta <h1> para títulos principales, 
+            la etiqueta <p> para párrafos, y la etiqueta <img> para imágenes.
+
+      3. Validez del código:
+            El código HTML debe ser válido según las especificaciones del W3C. 
+            Esto se puede verificar utilizando validadores de HTML disponibles en línea o como herramientas integradas en algunos editores de código. 
+            Un código válido garantiza que la página web se renderice correctamente en diferentes navegadores y dispositivos.
+
+      4. Accesibilidad:
+            Las páginas web deben ser accesibles para todos los usuarios, independientemente de sus capacidades físicas o tecnológicas. 
+            Esto implica, entre otras cosas, proporcionar texto alternativo para las imágenes, usar un lenguaje claro y sencillo, 
+            y evitar el uso de elementos que puedan dificultar la navegación para personas con discapacidades.
+
+      5. Usabilidad:
+            Las páginas web deben ser fáciles de usar y navegar para todos los usuarios. 
+            Esto implica una estructura clara y lógica, una navegación intuitiva, 
+            y un diseño visual que no distraiga ni confunda al usuario.
+
+      6. Compatibilidad:
+            Las páginas web deben ser compatibles con una amplia gama de navegadores y dispositivos. 
+            Esto implica evitar el uso de código HTML o CSS no estándar, 
+            y probar la página web en diferentes navegadores y dispositivos para asegurar una experiencia de usuario consistente.
+
+      7. Actualización y mantenimiento:
+            Las páginas web deben actualizarse y mantenerse regularmente para garantizar que el contenido sea preciso y relevante, 
+            y que el código HTML y CSS se adapte a las nuevas tecnologías y estándares.
+
+--------------------------------------------------------------------------------------------
+3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+
+--------------------------------------------------------------------------------------------
+4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+
+--------------------------------------------------------------------------------------------
+5) Qué son los metadatos y cómo se especifican en HTML?
+Los metadatos son datos que proporcionan información sobre otros datos. 
+En el contexto de HTML, los metadatos se utilizan para describir características del documento HTML, como su título, autor, idioma, codificación de caracteres, entre otros detalles.
+Los metadatos en HTML se especifican utilizando la etiqueta <meta>, que se coloca dentro del elemento <head> del documento HTML. 
+La etiqueta <meta> puede tener varios atributos para definir diferentes tipos de metadatos. Algunos de los atributos comunes son:
+    - charset: Especifica la codificación de caracteres del documento.
+               <meta charset="UTF-8">
+    - name y content: Utilizados juntos, estos atributos proporcionan una variedad de metadatos, 
+      como el autor del documento, la descripción del contenido, palabras clave relevantes, etc.
+                      <meta name="author" content="Nombre del Autor">
+                      <meta name="description" content="Descripción del contenido">
+                      <meta name="keywords" content="palabra clave1, palabra clave2, palabra clave3">
