@@ -69,6 +69,8 @@ Ejercitacion 01
 --------------------------------------------------------------------------------------------
 3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
 
+      Sentar a un bebe
+
 --------------------------------------------------------------------------------------------
 4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
 
