@@ -62,7 +62,7 @@ pero que puede ser útil para los navegadores web, motores de búsqueda y otros 
     - hreflang="es": Este atributo hreflang especifica el idioma del recurso al que apunta el enlace. 
                      En este caso, se establece como "es", lo que indica que el recurso enlazado está en español.      
     - charset="utf-8": Este atributo charset especifica la codificación de caracteres del recurso al que apunta el enlace.
-    - rel="help": Este atributo rel especifica la relación entre el documento actual y el recurso al que apunta el enlace. 
+    - rel="help": (Relation) Este atributo rel especifica la relación entre el documento actual y el recurso al que apunta el enlace. 
                   En este caso, se establece como "help", lo que podría indicar que el recurso enlazado proporciona información de ayuda relacionada con el contenido del documento actual.
     - Resumen HTML: Este es el contenido del enlace, que se mostrará como texto visible en la página. 
 --------------------------------------------------------------------------------------------
