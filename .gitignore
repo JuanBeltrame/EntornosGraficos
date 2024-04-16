@@ -1,0 +1,125 @@
+
+# Archivo temporales y de desarrollo
+
+*.tmp
+*.temp
+*.bak
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Archivos de configuración específicos del editor
+
+*.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Archivos de configuración específicos del sistema operativo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+
+# Archivos de caché
+
+node_modules/
+bower_components/
+jspm_packages/
+.cache/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# Directorios de compilación
+
+build/
+dist/
+out/
+
+# Archivos de prueba
+
+*.spec.js
+*.spec.jsx
+*.spec.ts
+*.spec.tsx
+*.test.js
+*.test.jsx
+*.test.ts
+*.test.tsx
+
+# Archivos de cobertura de código
+
+coverage/
+.nyc_output/
+
+# Documentación generada
+
+docs/
+doc/
+
+# Archivos de imágenes optimizadas
+
+*.webp
+*.avif
+*.jpg.webp
+*.png.webp
+*.svg.webp
+
+# Archivos de fuentes
+
+*.eot
+*.woff
+*.woff2
+*.ttf
+*.otf
+
+# Archivos de video
+
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Archivos de audio
+
+*.mp3
+*.wav
+*.ogg
+
+# Archivos de minificación
+
+*.min.js
+*.min.css
+
+# Archivos de mapas de origen
+
+*.map
+
+# Archivos de configuración específicos del proyecto
+
+# Ejemplo: configuración de webpack
+webpack.config.js
+
+# Archivos específicos de Visual Studio Code
+
+# Archivos de configuración de usuario
+*.vscode/settings.json
+*.vscode/extensions.json
+
+# Archivos de espacio de trabajo
+*.vscode/workspace.json
+
+# Archivos de caché de extensiones
+.vscode/extensions.json
+
+# Archivos de historial de archivos
+.history/
+
+# Archivos de autocompletar
+*.vsautosave

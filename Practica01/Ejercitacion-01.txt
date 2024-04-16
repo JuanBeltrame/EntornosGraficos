@@ -96,14 +96,17 @@ Ejercitacion 01
                         No se recomienda para la creación de nuevos documentos HTML, ya que los marcos no son una buena práctica de diseño web moderno.
 --------------------------------------------------------------------------------------------
 5) Qué son los metadatos y cómo se especifican en HTML?
-Los metadatos son datos que proporcionan información sobre otros datos. 
-En el contexto de HTML, los metadatos se utilizan para describir características del documento HTML, como su título, autor, idioma, codificación de caracteres, entre otros detalles.
-Los metadatos en HTML se especifican utilizando la etiqueta <meta>, que se coloca dentro del elemento <head> del documento HTML. 
-La etiqueta <meta> puede tener varios atributos para definir diferentes tipos de metadatos. Algunos de los atributos comunes son:
-    - charset: Especifica la codificación de caracteres del documento.
-               <meta charset="UTF-8">
-    - name y content: Utilizados juntos, estos atributos proporcionan una variedad de metadatos, 
-      como el autor del documento, la descripción del contenido, palabras clave relevantes, etc.
-                      <meta name="author" content="Nombre del Autor">
-                      <meta name="description" content="Descripción del contenido">
-                      <meta name="keywords" content="palabra clave1, palabra clave2, palabra clave3">
+
+      Los metadatos son datos que proporcionan información sobre otros datos. 
+      En el contexto de HTML, los metadatos se utilizan para describir características del documento HTML, como su título, autor, idioma, codificación de caracteres, entre otros detalles.
+      Los metadatos en HTML se especifican utilizando la etiqueta <meta>, que se coloca dentro del elemento <head> del documento HTML. 
+      
+      La etiqueta <meta> puede tener varios atributos para definir diferentes tipos de metadatos. Algunos de los atributos comunes son:
+            - charset: Especifica la codificación de caracteres del documento.
+                  <meta charset="UTF-8">
+            - name y content: Utilizados juntos, estos atributos proporcionan una variedad de metadatos, 
+              como el autor del documento, la descripción del contenido, palabras clave relevantes, etc.
+                  <meta name="author" content="Nombre del Autor">
+                  <meta name="description" content="Descripción del contenido">
+                  <meta name="keywords" content="palabra clave1, palabra clave2, palabra clave3">
+--------------------------------------------------------------------------------------------
