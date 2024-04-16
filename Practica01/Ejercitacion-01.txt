@@ -69,7 +69,11 @@ Ejercitacion 01
 --------------------------------------------------------------------------------------------
 3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
 
-      Sentar a un bebe
+      En las Especificaciones de HTML, un elemento o atributo se considera:
+
+Desaprobado: cuando ya no se recomienda su uso y se espera que sea eliminado en futuras versiones del lenguaje.
+
+Obsoleto: cuando ha sido oficialmente eliminado del lenguaje y no debe usarse en nuevos documentos.
 
 --------------------------------------------------------------------------------------------
 4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
