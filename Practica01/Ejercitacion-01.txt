@@ -76,8 +76,24 @@ Ejercitacion 01
 --------------------------------------------------------------------------------------------
 4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
 
-      Comenzando con el item 4kkkrr Probando Rama Main
+      ¿Qué es un DTD?
+            DTD significa Definición de Tipo de Documento (Document Type Definition, en inglés). 
+            Es un conjunto de reglas que define la estructura y los elementos permitidos en un documento HTML. 
+            El DTD se basa en el lenguaje SGML (Standard Generalized Markup Language) y se utiliza para validar la sintaxis del código HTML.
 
+      ¿Cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+            La especificación de HTML 4.01 define tres tipos de DTDs:
+                  1. DTD Estricto (Strict DTD):
+                        No permite el uso de elementos y atributos de presentación, como <font>, <center> y <bgcolor>, que se consideran obsoletos y se espera que sean reemplazados por hojas de estilo (CSS).
+                        Es el DTD recomendado para la creación de nuevos documentos HTML, ya que promueve la separación de la estructura del contenido del diseño de la página.
+                  2. DTD Transicional (Transitional DTD):
+                        Permite el uso de elementos y atributos de presentación, además de los elementos y atributos estándar de HTML.
+                        Se diseñó para facilitar la migración de documentos HTML antiguos a la nueva especificación HTML 4.01.
+                        No se recomienda para la creación de nuevos documentos HTML, ya que no promueve la separación de la estructura del contenido del diseño de la página.
+                  3. DTD Conjunto de Marcos (Frameset DTD):
+                        Permite el uso de marcos (frames) en documentos HTML.
+                        Se diseñó para documentos que requieren una estructura de marcos.
+                        No se recomienda para la creación de nuevos documentos HTML, ya que los marcos no son una buena práctica de diseño web moderno.
 --------------------------------------------------------------------------------------------
 5) Qué son los metadatos y cómo se especifican en HTML?
 Los metadatos son datos que proporcionan información sobre otros datos. 
