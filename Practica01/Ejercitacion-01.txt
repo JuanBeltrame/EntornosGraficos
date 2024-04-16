@@ -76,6 +76,8 @@ Ejercitacion 01
 --------------------------------------------------------------------------------------------
 4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
 
+      Comenzando con el item 4
+
 --------------------------------------------------------------------------------------------
 5) Qué son los metadatos y cómo se especifican en HTML?
 Los metadatos son datos que proporcionan información sobre otros datos. 
