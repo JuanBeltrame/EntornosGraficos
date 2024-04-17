@@ -117,7 +117,9 @@ pero que puede ser útil para los navegadores web, motores de búsqueda y otros 
     - <table></table>: Para crear tablas
     - <table width="200" summary="Datos correspondientes al ejercicio vencido">: Define una tabla con un ancho de 200 píxeles y proporciona un resumen descriptivo del contenido de la tabla, 
     - <caption align="top">Título</caption>: Define un título para la tabla, que se posiciona en la parte superior (align="top"). En este caso, el título es "Título".
-    - <tr></tr>: Define el comienzo y el final de una fila de la tabla.
-    - <th scope="col">&nbsp;</th>: Define una celda de encabezado en la primera fila de la tabla. El atributo "scope" indica que esta celda es parte del encabezado de la columna. La entidad &nbsp; representa un espacio en blanco no rompible, lo que significa que la celda está vacía, 
+    - <tr></tr>: Stands for (Table Row): Define el comienzo y el final de una fila de la tabla.
+    - <th scope="col">&nbsp;</th>: <th> Stands for (Table Header): Define una celda de encabezado en la primera fila de la tabla. El atributo "scope" indica que esta celda es parte del encabezado de la columna. La entidad &nbsp; representa un espacio en blanco no rompible, lo que significa que la celda está vacía, 
     - <th scope="row">1o</th>: Define una celda de encabezado en la primera columna de la tabla. El atributo "scope" indica que esta celda es parte del encabezado de la fila. El texto "1o" indica el primer elemento en la primera columna.
-    - <td></td>: En cada fila (<tr>) se especifican los contenidos de las celdas (<td>). 
+    - <td></td>: Stands for (Table Data): En cada fila (<tr>) se especifican los contenidos de las celdas (<td>). 
+
+  
