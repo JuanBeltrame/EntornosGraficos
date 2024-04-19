@@ -1,3 +1,57 @@
 --------------------------------------------------------------------------------------------
-Ejercitacion 03
+Ejercitacion 03: En cada caso, explicar las diferencias entre los segmentos de código y sus visualizaciones:
 --------------------------------------------------------------------------------------------
+3.a)
+1. <a href="http://www.google.com.ar">Click aquí para ir a Google</a>:
+Este código crea un enlace (<a>) que dirige al usuario a http://www.google.com.ar cuando se hace clic en él. 
+No tiene ningún atributo target, por lo que el enlace se abre en la misma pestaña o ventana del navegador en la que se hizo clic.
+    Visualización: Un texto "Click aquí para ir a Google" que al hacer clic lleva al usuario a la página de inicio de Google.
+
+2. <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+Este es similar al primero, pero tiene un atributo target="_blank". 
+Esto indica al navegador que abra el enlace en una nueva pestaña o ventana.
+    Visualización: Igual que el primero, pero al hacer clic se abre una nueva pestaña o ventana con la página de inicio de Google.
+
+3. <a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+Este código tiene varios atributos adicionales que son incorrectos o no aplicables para un enlace HTML. 
+El atributo type se usa para especificar el tipo de medio de destino del enlace, pero está mal ubicado y su valor es incorrecto. 
+El atributo hreflang indica el idioma de la página vinculada, pero tampoco está correctamente ubicado. 
+El atributo charset especifica el juego de caracteres de la página vinculada, pero nuevamente está mal ubicado. 
+Finalmente, el atributo rel se usa para indicar la relación entre el documento actual y el recurso vinculado, pero aquí se establece como "help", lo cual no es estándar.
+    Visualización: El link esta mal escrito, por lo cual esta roto. 
+
+4. <a href="#">Click aquí para ir a Google</a>
+Este enlace tiene un atributo href="#", lo que significa que, al hacer clic en él, la página se desplazará hacia la parte superior (el comportamiento predeterminado de los enlaces con href="#"). 
+No lleva a ninguna página externa.
+    Visualización: Un texto "Click aquí para ir a Google", pero al hacer clic, simplemente llevará al usuario al principio de la página actual.
+
+5. <a href="#arriba">Click aquí para volver arriba</a>
+Similar al cuarto, pero en lugar de href="#", tiene href="#arriba". 
+Esto significa que, al hacer clic en él, la página se desplazará hacia un elemento con id="arriba" en la misma página (si existe).
+    Visualización: Un texto "Click aquí para volver arriba", que al hacer clic lleva al usuario al elemento con el id "arriba" en la misma página.
+
+6. <a name="arriba" id="arriba"></a>
+Este no es un enlace visible, sino un marcador en la página. 
+Al tener tanto el atributo name como el id con el valor "arriba", crea un punto de anclaje en la página que otros enlaces pueden usar para dirigirse a él.
+    Visualización: No tiene una visualización visible por sí mismo, simplemente marca un punto específico en la página al que otros enlaces pueden dirigirse.
+
+--------------------------------------------------------------------------------------------
+3.b)
+1. <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+Este código incluye primero una etiqueta de párrafo (<p>) que contiene una imagen (<img>) con src="im1.jpg" 
+y un enlace (<a>) con el texto "Click aquí" que dirige al usuario a http://www.google.com.ar.
+    Visualización: Una imagen seguida de un enlace con el texto "Click aquí".
+
+2. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+En este caso, la estructura es un poco diferente. Aquí, el enlace (<a>) rodea a la imagen (<img>) y luego el texto "Click aquí".
+    Visualización: Una imagen con un enlace alrededor de ella, seguida del texto "Click aquí".
+
+3. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+
+
+
+
+
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a
+href="http://www.google.com.ar">Click aquí</a></p>
