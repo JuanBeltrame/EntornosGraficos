@@ -38,21 +38,56 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
 --------------------------------------------------------------------------------------------
 3.b)
 1. <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
-    <p>: Esto indica el comienzo de un párrafo en HTML.
-    <img src="im1.jpg" alt="imagen1" />: Esta es una etiqueta de imagen que incluye un atributo src que especifica la ruta de la imagen llamada "im1.jpg" y un atributo alt que proporciona un texto alternativo para la imagen en caso de que no se pueda cargar.
-    <a href="http://www.google.com.ar">Click aquí</a>: Esta es una etiqueta de enlace (<a>) que incluye un atributo href que especifica la URL a la que se dirigirá el enlace cuando se haga clic. En este caso, la URL es "http://www.google.com.ar". 
-    Visualización: El texto visible para el enlace es "Click aquí".
+   En este código, la imagen y el enlace están dentro del mismo párrafo (<p>). 
+   La imagen (<img>) se muestra primero, seguida del enlace (<a>). 
+   La imagen se mostrará antes del texto "Click aquí".
 
 2. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
-En este caso, la estructura es un poco diferente. Aquí, el enlace (<a>) rodea a la imagen (<img>) y luego el texto "Click aquí".
-    Visualización: Una imagen con un enlace alrededor de ella, seguida del texto "Click aquí".
+    En este caso, el enlace (<a>) envuelve a la imagen (<img>). 
+    La imagen se encuentra dentro del enlace. 
+    El texto "Click aquí" está fuera del enlace y aparecerá después de la imagen.
 
 3. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+    Similar al anterior, pero en este caso, el texto "Click aquí" está dentro del enlace. 
+    Por lo tanto, el texto "Click aquí" se mostrará junto a la imagen dentro del enlace.
 
+4. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <ahref="http://www.google.com.ar">Click aquí</a></p>
+    Aca hay un error de sintaxis. El enlace después del cierre del enlace de la imagen no tiene la etiqueta <a> correctamente formateada, 
+    lo que probablemente resultará en un comportamiento inesperado o errores en la visualización. 
+    Además, no hay espacio entre </a> y <a en <a href="http://www.google.com.ar">, lo que también puede causar problemas de renderización.
+--------------------------------------------------------------------------------------------
+3.c)
+1. 
+<ul>
+    <li>xxx</li>
+    <li>yyy</li>
+    <li>zzz</li>
+</ul>
+    Este código representa una lista desordenada (unordered list). 
+    Cada elemento de la lista está dentro de <li> (elemento de lista). 
+    Esto se visualizará como una lista con viñetas, donde cada elemento de la lista está precedido por un marcador de viñeta, como puntos negros típicamente.
 
+2. 
+<ol>
+    <li>xxx</li>
+    <li>yyy</li>
+    <li>zzz</li>
+</ol>
+    Este código representa una lista ordenada (ordered list). 
+    Al igual que en el caso anterior, cada elemento de la lista está dentro de <li>. 
+    La diferencia es que esta lista se numerará automáticamente en orden secuencial. 
+    Los números aparecerán antes de cada elemento de la lista en lugar de viñetas.
 
-
-
-
-<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a
-href="http://www.google.com.ar">Click aquí</a></p>
+3.
+<ol>
+    <li>xxx</li>
+</ol>
+<ol>
+    <li value="2">yyy</li>
+</ol>
+<ol>
+    <li value="3">zzz</li>
+</ol>
+    Aquí, se presentan tres listas ordenadas separadas. 
+    Cada una comienza en un número diferente debido al atributo value. 
+    La primera lista comienza en 1 (por defecto), la segunda lista comienza en 2 y la tercera lista comienza en 3.   
