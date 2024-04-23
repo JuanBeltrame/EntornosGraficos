@@ -38,9 +38,10 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
 --------------------------------------------------------------------------------------------
 3.b)
 1. <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
-Este código incluye primero una etiqueta de párrafo (<p>) que contiene una imagen (<img>) con src="im1.jpg" 
-y un enlace (<a>) con el texto "Click aquí" que dirige al usuario a http://www.google.com.ar.
-    Visualización: Una imagen seguida de un enlace con el texto "Click aquí".
+    <p>: Esto indica el comienzo de un párrafo en HTML.
+    <img src="im1.jpg" alt="imagen1" />: Esta es una etiqueta de imagen que incluye un atributo src que especifica la ruta de la imagen llamada "im1.jpg" y un atributo alt que proporciona un texto alternativo para la imagen en caso de que no se pueda cargar.
+    <a href="http://www.google.com.ar">Click aquí</a>: Esta es una etiqueta de enlace (<a>) que incluye un atributo href que especifica la URL a la que se dirigirá el enlace cuando se haga clic. En este caso, la URL es "http://www.google.com.ar". 
+    Visualización: El texto visible para el enlace es "Click aquí".
 
 2. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
 En este caso, la estructura es un poco diferente. Aquí, el enlace (<a>) rodea a la imagen (<img>) y luego el texto "Click aquí".
