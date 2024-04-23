@@ -91,3 +91,110 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
     Aquí, se presentan tres listas ordenadas separadas. 
     Cada una comienza en un número diferente debido al atributo value. 
     La primera lista comienza en 1 (por defecto), la segunda lista comienza en 2 y la tercera lista comienza en 3.   
+
+4. 
+<blockquote>
+    <p>1. xxx<br />
+      2. yyy<br />
+      3. zzz</p>
+</blockquote>
+    Este código representa un bloque de cita. 
+    El contenido dentro de <blockquote> se formateará típicamente con un margen izquierdo adicional o una identación, dependiendo de la configuración de estilo del navegador o del sitio web. 
+    En este caso, se muestra una lista numerada dentro del bloque de cita, pero sin viñetas ni numeración automática. 
+    La numeración es manual, por lo que no seguirá el orden tradicional de las listas numeradas.
+
+--------------------------------------------------------------------------------------------
+3.d)
+1. 
+<table border="1" width="300">
+    <tr>
+      <th>Columna 1</th>
+      <th>Columna 2</th>
+    </tr>
+    <tr>
+      <td>Celda 1</td>
+      <td>Celda 2</td>
+    </tr>
+    <tr>
+      <td>Celda 3</td>
+      <td>Celda 4</td>
+    </tr>
+</table>
+    En este caso, se crea una tabla con un borde de ancho 1 y una anchura de 300 píxeles. 
+    Hay dos filas de encabezados de columna (<th>) y dos filas de datos (<td>). 
+    Las celdas en la primera fila están etiquetadas como "Columna 1" y "Columna 2". 
+    Las siguientes filas contienen datos en las celdas.
+
+2. 
+<table border="1" width="300">
+    <tr>
+      <td>
+        <div align="center"><strong>Colum
+            na1</strong></div>
+      </td>
+      <td>
+        <div align="center"><strong>Columna
+            2</strong></div>
+      </td>
+    </tr>
+    <tr>
+      <td>Celda 1</td>
+      <td>Celda 2</td>
+    </tr>
+    <tr>
+      <td>Celda 3</td>
+      <td>Celda 4</td>
+    </tr>
+</table>
+    Las etiquetas <th> se han reemplazado por <td> en la primera fila, lo que indica que estas celdas son de datos, no encabezados.
+    Cada celda de encabezado y de datos está contenida dentro de un <div> con alineación centrada y formato en negrita (<strong>).
+
+    Visualmente, la principal diferencia será la apariencia del texto de encabezado debido al formato en negrita 
+    y la alineación centrada en el segundo segmento de código. 
+    Además, el primer segmento tiene encabezados de columna claros, 
+    mientras que el segundo segmento tiene datos en la primera fila.
+
+--------------------------------------------------------------------------------------------
+3.e)
+1. 
+<table width="200">
+    <caption>
+      Título
+    </caption>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">
+        &nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+En este caso, se crea una tabla con un ancho de 200 píxeles y una fila de título (<caption>) que contiene el texto "Título". 
+Luego, hay dos filas de datos, 
+cada una con tres celdas de fondo gris (#dddddd) y texto no visible (&nbsp;).
+
+2.
+<table width="200">
+    <tr>
+      <td colspan="3">
+        <div align="center">Título</div>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+En este caso, también se crea una tabla con un ancho de 200 píxeles. 
+Sin embargo, en lugar de usar una etiqueta <caption>, se utiliza la propiedad colspan="3" en la primera celda de la primera fila para fusionar las tres celdas y centrar el texto "Título". El texto "Título" se centra usando un <div> con align="center". Las siguientes filas contienen celdas de datos con fondo gris y texto no visible, similar al primer segmento.
