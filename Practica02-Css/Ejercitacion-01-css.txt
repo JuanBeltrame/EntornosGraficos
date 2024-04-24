@@ -3,24 +3,50 @@ Ejercitacion 01
 --------------------------------------------------------------------------------------------
 1. ¿ Qué es CSS y para qué se usa?
 
-CSS, o Cascading Style Sheets (Hojas de Estilo en Cascada), 
-es un lenguaje de estilo utilizado para definir el aspecto y la presentación de documentos HTML (y XML). 
-Permite a los desarrolladores web controlar el diseño, el formato y la apariencia visual de sus páginas web. 
-CSS se utiliza para aplicar estilos como colores, fuentes, márgenes, espaciado, tamaño de texto, alineación 
-y otros aspectos de diseño a elementos individuales o conjuntos de elementos en una página web.
+    CSS, o Cascading Style Sheets (Hojas de Estilo en Cascada), 
+    es un lenguaje de estilo utilizado para definir el aspecto y la presentación de documentos HTML (y XML). 
+    Permite a los desarrolladores web controlar el diseño, el formato y la apariencia visual de sus páginas web. 
+    CSS se utiliza para aplicar estilos como colores, fuentes, márgenes, espaciado, tamaño de texto, alineación 
+    y otros aspectos de diseño a elementos individuales o conjuntos de elementos en una página web.
 
-En resumen, CSS se utiliza para:
+    En resumen, CSS se utiliza para:
 
-Dar estilo y diseño a una página web.
-Mantener la separación entre la estructura del contenido (HTML) y su presentación visual (CSS).
-Facilitar la consistencia y la coherencia en el diseño de un sitio web.
-Hacer que las páginas web sean más accesibles y adaptables a diferentes dispositivos y tamaños de pantalla, a través de técnicas de diseño responsivo y adaptable.
+    Dar estilo y diseño a una página web.
+    Mantener la separación entre la estructura del contenido (HTML) y su presentación visual (CSS).
+    Facilitar la consistencia y la coherencia en el diseño de un sitio web.
+    Hacer que las páginas web sean más accesibles y adaptables a diferentes dispositivos y tamaños de pantalla, a través de técnicas de diseño responsivo y adaptable.
 
 --------------------------------------------------------------------------------------------
 2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
 
+    Las reglas de CSS son la base fundamental para aplicar estilos a los elementos HTML en una página web. 
+    Cada regla de CSS consta de dos partes principales: un selector y un bloque de declaración de estilo.
+    
+    Selector: El selector es la parte de la regla CSS que apunta a los elementos HTML a los que se aplicará el estilo. 
+    Puede ser un elemento HTML específico (como p para párrafos), una clase (precedida por un punto, como .clase), 
+    un ID (precedido por un signo de numeral, como #id), o incluso elementos anidados (usando un espacio entre los selectores para indicar descendencia).
+    
+    Declaraciones de estilo: El bloque de declaración de estilo consiste en una o más propiedades de estilo y sus valores, 
+    separados por dos puntos y delimitados por llaves {}. 
+    Cada propiedad define un aspecto del estilo que se aplicará a los elementos seleccionados. Por ejemplo, color: blue; establece el color del texto en azul.
+
 --------------------------------------------------------------------------------------------
 3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+
+    Las tres formas principales de dar estilo a un documento web son:
+        Estilo en línea (Inline Styles):
+            Se aplica directamente a un elemento HTML utilizando el atributo style.
+            Los estilos se especifican dentro del mismo elemento HTML.
+        
+        Estilo interno (Internal Styles):
+            Los estilos se definen dentro del elemento <head> del documento HTML, utilizando la etiqueta <style>.
+            Los estilos se aplican a todo el documento o a un conjunto de elementos específicos.
+
+        Estilo externo (External Styles):
+            Los estilos se definen en un archivo CSS separado.
+            El archivo CSS se vincula al documento HTML utilizando la etiqueta <link> dentro del elemento <head>.
+            Los estilos se pueden aplicar a múltiples documentos HTML.
+
 --------------------------------------------------------------------------------------------
 4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
 --------------------------------------------------------------------------------------------
