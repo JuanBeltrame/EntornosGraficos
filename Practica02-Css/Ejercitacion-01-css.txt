@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------------------
+Ejercitacion 01 
+--------------------------------------------------------------------------------------------
+1. ¿ Qué es CSS y para qué se usa?
+
+CSS, o Cascading Style Sheets (Hojas de Estilo en Cascada), 
+es un lenguaje de estilo utilizado para definir el aspecto y la presentación de documentos HTML (y XML). 
+Permite a los desarrolladores web controlar el diseño, el formato y la apariencia visual de sus páginas web. 
+CSS se utiliza para aplicar estilos como colores, fuentes, márgenes, espaciado, tamaño de texto, alineación 
+y otros aspectos de diseño a elementos individuales o conjuntos de elementos en una página web.
+
+En resumen, CSS se utiliza para:
+
+Dar estilo y diseño a una página web.
+Mantener la separación entre la estructura del contenido (HTML) y su presentación visual (CSS).
+Facilitar la consistencia y la coherencia en el diseño de un sitio web.
+Hacer que las páginas web sean más accesibles y adaptables a diferentes dispositivos y tamaños de pantalla, a través de técnicas de diseño responsivo y adaptable.
+
+--------------------------------------------------------------------------------------------
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+
+--------------------------------------------------------------------------------------------
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+--------------------------------------------------------------------------------------------
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+--------------------------------------------------------------------------------------------
+Ejemplifique cada uno.
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+--------------------------------------------------------------------------------------------
+6. ¿ Qué es la herencia?
+--------------------------------------------------------------------------------------------
+7. ¿ En qué consiste el proceso denominado cascada?
+--------------------------------------------------------------------------------------------

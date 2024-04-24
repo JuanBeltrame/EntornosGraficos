@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------------------
-Ejercitacion 01
+Ejercitacion 01 
 --------------------------------------------------------------------------------------------
 1) Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?   
+--------------------------------------------------------------------------------------------
 
     - HTML, que significa "HyperText Markup Language" en inglés, es el lenguaje de marcado estándar utilizado para crear y diseñar páginas web. 
       Proporciona la estructura básica para el contenido web al definir diversos elementos y sus propiedades dentro de un documento.
@@ -27,6 +28,7 @@ Ejercitacion 01
              soporte para gráficos vectoriales escalables (SVG), capacidades de almacenamiento local (localStorage y sessionStorage), y mucho más.
 --------------------------------------------------------------------------------------------
 2) ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML? 
+--------------------------------------------------------------------------------------------
 
     - Estos principios se enfocan en la accesibilidad, la legibilidad, la corrección y la usabilidad, 
       con el objetivo de garantizar que las páginas web sean universales y compatibles con una amplia gama de navegadores y dispositivos.
@@ -68,6 +70,7 @@ Ejercitacion 01
 
 --------------------------------------------------------------------------------------------
 3) En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+--------------------------------------------------------------------------------------------
 
       En las Especificaciones de HTML, un elemento o atributo se considera:
             Desaprobado: cuando ya no se recomienda su uso y se espera que sea eliminado en futuras versiones del lenguaje.
@@ -75,6 +78,7 @@ Ejercitacion 01
 
 --------------------------------------------------------------------------------------------
 4) Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+--------------------------------------------------------------------------------------------
 
       ¿Qué es un DTD?
             DTD significa Definición de Tipo de Documento (Document Type Definition, en inglés). 
@@ -96,6 +100,7 @@ Ejercitacion 01
                         No se recomienda para la creación de nuevos documentos HTML, ya que los marcos no son una buena práctica de diseño web moderno.
 --------------------------------------------------------------------------------------------
 5) Qué son los metadatos y cómo se especifican en HTML?
+--------------------------------------------------------------------------------------------
 
       Los metadatos son datos que proporcionan información sobre otros datos. 
       En el contexto de HTML, los metadatos se utilizan para describir características del documento HTML, como su título, autor, idioma, codificación de caracteres, entre otros detalles.
