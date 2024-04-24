@@ -21,11 +21,11 @@ Ejercitacion 01
 
     Las reglas de CSS son la base fundamental para aplicar estilos a los elementos HTML en una página web. 
     Cada regla de CSS consta de dos partes principales: un selector y un bloque de declaración de estilo.
-    
+
     Selector: El selector es la parte de la regla CSS que apunta a los elementos HTML a los que se aplicará el estilo. 
     Puede ser un elemento HTML específico (como p para párrafos), una clase (precedida por un punto, como .clase), 
     un ID (precedido por un signo de numeral, como #id), o incluso elementos anidados (usando un espacio entre los selectores para indicar descendencia).
-    
+
     Declaraciones de estilo: El bloque de declaración de estilo consiste en una o más propiedades de estilo y sus valores, 
     separados por dos puntos y delimitados por llaves {}. 
     Cada propiedad define un aspecto del estilo que se aplicará a los elementos seleccionados. Por ejemplo, color: blue; establece el color del texto en azul.
@@ -47,8 +47,15 @@ Ejercitacion 01
             El archivo CSS se vincula al documento HTML utilizando la etiqueta <link> dentro del elemento <head>.
             Los estilos se pueden aplicar a múltiples documentos HTML.
 
+    Estilo externo (External Styles):
+    Los estilos se definen en un archivo CSS separado.
+    El archivo CSS se vincula al documento HTML utilizando la etiqueta <link> dentro del elemento <head>.
+    Los estilos se pueden aplicar a múltiples documentos HTML.
+
 --------------------------------------------------------------------------------------------
 4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+
+
 --------------------------------------------------------------------------------------------
 Ejemplifique cada uno.
 5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
