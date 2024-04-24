@@ -2,70 +2,85 @@
 Ejercitacion 03: En cada caso, explicar las diferencias entre los segmentos de código y sus visualizaciones:
 --------------------------------------------------------------------------------------------
 3.a)
+--------------------------------------------------------------------------------------------
 1. <a href="http://www.google.com.ar">Click aquí para ir a Google</a>:
-Este código crea un enlace (<a>) que dirige al usuario a http://www.google.com.ar cuando se hace clic en él. 
-No tiene ningún atributo target, por lo que el enlace se abre en la misma pestaña o ventana del navegador en la que se hizo clic.
-    Visualización: Un texto "Click aquí para ir a Google" que al hacer clic lleva al usuario a la página de inicio de Google.
+
+  Este código crea un enlace (<a>) que dirige al usuario a http://www.google.com.ar cuando se hace clic en él. 
+  No tiene ningún atributo target, por lo que el enlace se abre en la misma pestaña o ventana del navegador en la que se hizo clic.
+  Visualización: Un texto "Click aquí para ir a Google" que al hacer clic lleva al usuario a la página de inicio de Google.
 
 2. <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
-Este es similar al primero, pero tiene un atributo target="_blank". 
-Esto indica al navegador que abra el enlace en una nueva pestaña o ventana.
-    Visualización: Igual que el primero, pero al hacer clic se abre una nueva pestaña o ventana con la página de inicio de Google.
+
+  Este es similar al primero, pero tiene un atributo target="_blank". 
+  Esto indica al navegador que abra el enlace en una nueva pestaña o ventana.
+  Visualización: Igual que el primero, pero al hacer clic se abre una nueva pestaña o ventana con la página de inicio de Google.
 
 3. <a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
-Este código tiene varios atributos adicionales que son incorrectos o no aplicables para un enlace HTML. 
-El atributo type se usa para especificar el tipo de medio de destino del enlace, pero está mal ubicado y su valor es incorrecto. 
-El atributo hreflang indica el idioma de la página vinculada, pero tampoco está correctamente ubicado. 
-El atributo charset especifica el juego de caracteres de la página vinculada, pero nuevamente está mal ubicado. 
-Finalmente, el atributo rel se usa para indicar la relación entre el documento actual y el recurso vinculado, pero aquí se establece como "help", lo cual no es estándar.
-    Visualización: El link esta mal escrito, por lo cual esta roto. 
+
+  Este código tiene varios atributos adicionales que son incorrectos o no aplicables para un enlace HTML. 
+  El atributo type se usa para especificar el tipo de medio de destino del enlace, pero está mal ubicado y su valor es incorrecto. 
+  El atributo hreflang indica el idioma de la página vinculada, pero tampoco está correctamente ubicado. 
+  El atributo charset especifica el juego de caracteres de la página vinculada, pero nuevamente está mal ubicado. 
+  Finalmente, el atributo rel se usa para indicar la relación entre el documento actual y el recurso vinculado, pero aquí se establece como "help", lo cual no es estándar.
+  Visualización: El link esta mal escrito, por lo cual esta roto. 
 
 4. <a href="#">Click aquí para ir a Google</a>
-Este enlace tiene un atributo href="#", lo que significa que, al hacer clic en él, la página se desplazará hacia la parte superior (el comportamiento predeterminado de los enlaces con href="#"). 
-No lleva a ninguna página externa.
-    Visualización: Un texto "Click aquí para ir a Google", pero al hacer clic, simplemente llevará al usuario al principio de la página actual.
+
+  Este enlace tiene un atributo href="#", lo que significa que, al hacer clic en él, la página se desplazará hacia la parte superior (el comportamiento predeterminado de los enlaces con href="#"). 
+  No lleva a ninguna página externa.
+  Visualización: Un texto "Click aquí para ir a Google", pero al hacer clic, simplemente llevará al usuario al principio de la página actual.
 
 5. <a href="#arriba">Click aquí para volver arriba</a>
-Similar al cuarto, pero en lugar de href="#", tiene href="#arriba". 
-Esto significa que, al hacer clic en él, la página se desplazará hacia un elemento con id="arriba" en la misma página (si existe).
-    Visualización: Un texto "Click aquí para volver arriba", que al hacer clic lleva al usuario al elemento con el id "arriba" en la misma página.
+
+  Similar al cuarto, pero en lugar de href="#", tiene href="#arriba". 
+  Esto significa que, al hacer clic en él, la página se desplazará hacia un elemento con id="arriba" en la misma página (si existe).
+  Visualización: Un texto "Click aquí para volver arriba", que al hacer clic lleva al usuario al elemento con el id "arriba" en la misma página.
 
 6. <a name="arriba" id="arriba"></a>
-Este no es un enlace visible, sino un marcador en la página. 
-Al tener tanto el atributo name como el id con el valor "arriba", crea un punto de anclaje en la página que otros enlaces pueden usar para dirigirse a él.
-    Visualización: No tiene una visualización visible por sí mismo, simplemente marca un punto específico en la página al que otros enlaces pueden dirigirse.
+
+  Este no es un enlace visible, sino un marcador en la página. 
+  Al tener tanto el atributo name como el id con el valor "arriba", crea un punto de anclaje en la página que otros enlaces pueden usar para dirigirse a él.
+  Visualización: No tiene una visualización visible por sí mismo, simplemente marca un punto específico en la página al que otros enlaces pueden dirigirse.
 
 --------------------------------------------------------------------------------------------
 3.b)
+--------------------------------------------------------------------------------------------
 1. <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+
    En este código, la imagen y el enlace están dentro del mismo párrafo (<p>). 
    La imagen (<img>) se muestra primero, seguida del enlace (<a>). 
    La imagen se mostrará antes del texto "Click aquí".
 
 2. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+
     En este caso, el enlace (<a>) envuelve a la imagen (<img>). 
     La imagen se encuentra dentro del enlace. 
     El texto "Click aquí" está fuera del enlace y aparecerá después de la imagen.
 
 3. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+
     Similar al anterior, pero en este caso, el texto "Click aquí" está dentro del enlace. 
     Por lo tanto, el texto "Click aquí" se mostrará junto a la imagen dentro del enlace.
 
 4. <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <ahref="http://www.google.com.ar">Click aquí</a></p>
+
     Aca hay un error de sintaxis. El enlace después del cierre del enlace de la imagen no tiene la etiqueta <a> correctamente formateada, 
     lo que probablemente resultará en un comportamiento inesperado o errores en la visualización. 
     Además, no hay espacio entre </a> y <a en <a href="http://www.google.com.ar">, lo que también puede causar problemas de renderización.
+
 --------------------------------------------------------------------------------------------
 3.c)
+--------------------------------------------------------------------------------------------
 1. 
 <ul>
     <li>xxx</li>
     <li>yyy</li>
     <li>zzz</li>
 </ul>
-    Este código representa una lista desordenada (unordered list). 
-    Cada elemento de la lista está dentro de <li> (elemento de lista). 
-    Esto se visualizará como una lista con viñetas, donde cada elemento de la lista está precedido por un marcador de viñeta, como puntos negros típicamente.
+
+  Este código representa una lista desordenada (unordered list). 
+  Cada elemento de la lista está dentro de <li> (elemento de lista). 
+  Esto se visualizará como una lista con viñetas, donde cada elemento de la lista está precedido por un marcador de viñeta, como puntos negros típicamente.
 
 2. 
 <ol>
@@ -73,10 +88,11 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
     <li>yyy</li>
     <li>zzz</li>
 </ol>
-    Este código representa una lista ordenada (ordered list). 
-    Al igual que en el caso anterior, cada elemento de la lista está dentro de <li>. 
-    La diferencia es que esta lista se numerará automáticamente en orden secuencial. 
-    Los números aparecerán antes de cada elemento de la lista en lugar de viñetas.
+
+  Este código representa una lista ordenada (ordered list). 
+  Al igual que en el caso anterior, cada elemento de la lista está dentro de <li>. 
+  La diferencia es que esta lista se numerará automáticamente en orden secuencial. 
+  Los números aparecerán antes de cada elemento de la lista en lugar de viñetas.
 
 3.
 <ol>
@@ -88,9 +104,10 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
 <ol>
     <li value="3">zzz</li>
 </ol>
-    Aquí, se presentan tres listas ordenadas separadas. 
-    Cada una comienza en un número diferente debido al atributo value. 
-    La primera lista comienza en 1 (por defecto), la segunda lista comienza en 2 y la tercera lista comienza en 3.   
+
+  Aquí, se presentan tres listas ordenadas separadas. 
+  Cada una comienza en un número diferente debido al atributo value. 
+  La primera lista comienza en 1 (por defecto), la segunda lista comienza en 2 y la tercera lista comienza en 3.   
 
 4. 
 <blockquote>
@@ -98,13 +115,15 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
       2. yyy<br />
       3. zzz</p>
 </blockquote>
-    Este código representa un bloque de cita. 
-    El contenido dentro de <blockquote> se formateará típicamente con un margen izquierdo adicional o una identación, dependiendo de la configuración de estilo del navegador o del sitio web. 
-    En este caso, se muestra una lista numerada dentro del bloque de cita, pero sin viñetas ni numeración automática. 
-    La numeración es manual, por lo que no seguirá el orden tradicional de las listas numeradas.
+
+  Este código representa un bloque de cita. 
+  El contenido dentro de <blockquote> se formateará típicamente con un margen izquierdo adicional o una identación, dependiendo de la configuración de estilo del navegador o del sitio web. 
+  En este caso, se muestra una lista numerada dentro del bloque de cita, pero sin viñetas ni numeración automática. 
+  La numeración es manual, por lo que no seguirá el orden tradicional de las listas numeradas.
 
 --------------------------------------------------------------------------------------------
 3.d)
+--------------------------------------------------------------------------------------------
 1. 
 <table border="1" width="300">
     <tr>
@@ -120,10 +139,11 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
       <td>Celda 4</td>
     </tr>
 </table>
-    En este caso, se crea una tabla con un borde de ancho 1 y una anchura de 300 píxeles. 
-    Hay dos filas de encabezados de columna (<th>) y dos filas de datos (<td>). 
-    Las celdas en la primera fila están etiquetadas como "Columna 1" y "Columna 2". 
-    Las siguientes filas contienen datos en las celdas.
+
+  En este caso, se crea una tabla con un borde de ancho 1 y una anchura de 300 píxeles. 
+  Hay dos filas de encabezados de columna (<th>) y dos filas de datos (<td>). 
+  Las celdas en la primera fila están etiquetadas como "Columna 1" y "Columna 2". 
+  Las siguientes filas contienen datos en las celdas.
 
 2. 
 <table border="1" width="300">
@@ -146,16 +166,18 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
       <td>Celda 4</td>
     </tr>
 </table>
-    Las etiquetas <th> se han reemplazado por <td> en la primera fila, lo que indica que estas celdas son de datos, no encabezados.
-    Cada celda de encabezado y de datos está contenida dentro de un <div> con alineación centrada y formato en negrita (<strong>).
 
-    Visualmente, la principal diferencia será la apariencia del texto de encabezado debido al formato en negrita 
-    y la alineación centrada en el segundo segmento de código. 
-    Además, el primer segmento tiene encabezados de columna claros, 
-    mientras que el segundo segmento tiene datos en la primera fila.
+  Las etiquetas <th> se han reemplazado por <td> en la primera fila, lo que indica que estas celdas son de datos, no encabezados.
+  Cada celda de encabezado y de datos está contenida dentro de un <div> con alineación centrada y formato en negrita (<strong>).
+
+  Visualmente, la principal diferencia será la apariencia del texto de encabezado debido al formato en negrita 
+  y la alineación centrada en el segundo segmento de código. 
+  Además, el primer segmento tiene encabezados de columna claros, 
+  mientras que el segundo segmento tiene datos en la primera fila.
 
 --------------------------------------------------------------------------------------------
 3.e)
+--------------------------------------------------------------------------------------------
 1. 
 <table width="200">
     <caption>
@@ -173,9 +195,10 @@ Al tener tanto el atributo name como el id con el valor "arriba", crea un punto 
       <td bgcolor="#dddddd">&nbsp;</td>
     </tr>
 </table>
-En este caso, se crea una tabla con un ancho de 200 píxeles y una fila de título (<caption>) que contiene el texto "Título". 
-Luego, hay dos filas de datos, 
-cada una con tres celdas de fondo gris (#dddddd) y texto no visible (&nbsp;).
+
+  En este caso, se crea una tabla con un ancho de 200 píxeles y una fila de título (<caption>) que contiene el texto "Título". 
+  Luego, hay dos filas de datos, 
+  cada una con tres celdas de fondo gris (#dddddd) y texto no visible (&nbsp;).
 
 2.
 <table width="200">
@@ -196,8 +219,251 @@ cada una con tres celdas de fondo gris (#dddddd) y texto no visible (&nbsp;).
     </tr>
 </table>
 
-En este caso, también se crea una tabla con un ancho de 200 píxeles. 
-Sin embargo, en lugar de usar una etiqueta <caption>, se utiliza la propiedad colspan="3" en la primera celda de la primera fila para fusionar las tres celdas y centrar el texto "Título". El texto "Título" se centra usando un <div> con align="center". Las siguientes filas contienen celdas de datos con fondo gris y texto no visible, similar al primer segmento.
+  En este caso, también se crea una tabla con un ancho de 200 píxeles. 
+  Sin embargo, en lugar de usar una etiqueta <caption>, se utiliza la propiedad colspan="3" en la primera celda de la primera fila para fusionar las tres celdas y centrar el texto "Título". El texto "Título" se centra usando un <div> con align="center". Las siguientes filas contienen celdas de datos con fondo gris y texto no visible, similar al primer segmento.
 
 --------------------------------------------------------------------------------------------
 3.f)
+--------------------------------------------------------------------------------------------
+1. 
+<table width="200">
+    <tr>
+      <td colspan="3">
+        <div align="center">Título</div>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+  En este caso, se crea una tabla con un ancho de 200 píxeles. 
+  En la primera fila, se fusionan las tres celdas para contener el texto "Título", que está centrado mediante un <div> con align="center". 
+  En las filas siguientes, hay tres celdas en cada fila. 
+  La primera celda de la primera fila ocupa dos filas debido al atributo rowspan="2". 
+  Las celdas tienen un fondo gris y texto no visible (&nbsp;).
+
+2. 
+<table width="200">
+    <tr>
+      <td colspan="3">
+        <div align="center">Título</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+  En este caso, también se crea una tabla con un ancho de 200 píxeles. 
+  En la primera fila, se fusionan las tres celdas para contener el texto "Título", al igual que en el primer segmento. 
+  En las filas siguientes, hay tres celdas en cada fila. La diferencia clave es que la primera fila contiene dos celdas fusionadas (colspan="2") y una celda adicional. 
+  Las celdas tienen un fondo gris y texto no visible (&nbsp;).
+
+--------------------------------------------------------------------------------------------
+3.g)
+--------------------------------------------------------------------------------------------
+1.
+<table width="200" border="1">
+    <tr>
+      <td colspan="3">
+        <div align="center">Título</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+
+  En este caso, se crea una tabla con un ancho de 200 píxeles y un borde. 
+  En la primera fila, se fusionan las tres celdas para contener el texto "Título", que está centrado mediante un <div> con align="center". 
+  En las filas siguientes, hay dos celdas fusionadas horizontalmente (colspan="2") y dos filas fusionadas verticalmente (rowspan="2"). 
+  Una celda ocupa el espacio en las dos primeras filas y la otra ocupa la tercera fila. 
+  Además, hay una celda que ocupa la mitad del ancho de la tabla (width="50%").
+
+2.
+<table width="200" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="2">
+        <div align="center">Título</div>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+
+  En este caso, también se crea una tabla con un ancho de 200 píxeles, un borde y sin espaciado entre las celdas (cellpadding="0" y cellspacing="0"). La estructura de la tabla es similar a la del primer segmento, pero con algunas diferencias:
+  En la primera fila, las dos celdas están fusionadas horizontalmente.
+  En las filas siguientes, una celda ocupa las dos primeras filas (rowspan="2") y la otra ocupa la tercera fila.
+  También hay una celda que ocupa la mitad del ancho de la tabla (width="50%").
+
+  Visualmente, ambas tablas tendrán un aspecto similar, con un título centrado en la parte superior y celdas que ocupan diferentes áreas de la tabla. 
+  Las diferencias radican en la forma en que se especifican las fusiones de celdas y el espaciado entre las celdas en el segundo segmento. 
+  La segunda tabla tiene un espaciado más ajustado debido a los atributos cellpadding="0" y cellspacing="0".
+
+--------------------------------------------------------------------------------------------
+3.h)
+--------------------------------------------------------------------------------------------
+1.
+<form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+    <fieldset>
+      <legend>LOGIN</legend>
+      Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+      Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+    </fieldset>
+    <input type="submit" id="boton1" name="boton1" value="Enviar" />
+</form>
+
+  En este caso, se crea un formulario con ID "form1" y se envía a "procesar.php" utilizando el método POST. 
+  Dentro del formulario, hay un campo de usuario (<input type="text">) y un campo de contraseña (<input type="password">) 
+  dentro de un <fieldset> con la leyenda "LOGIN". 
+  El valor predeterminado para los campos de usuario y contraseña es "xxx". 
+  Al hacer clic en el botón de enviar (<input type="submit">), se abrirá una nueva ventana o pestaña (target="_blank") para procesar el formulario.
+
+2.
+<form id="form2" name="form2" action="" method="get" target="_blank">
+    LOGIN<br />
+    <label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+    <label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+    <input type="submit" id="boton2" name="boton2" value="Enviar" />
+</form>
+
+  En este caso, se crea un formulario con ID "form2" que no especifica una acción (action="") y se envía utilizando el método GET. 
+  Dentro del formulario, hay dos campos de entrada de texto para usuario y contraseña. 
+  En lugar de un <fieldset> con leyenda, simplemente hay un texto "LOGIN". 
+  Al hacer clic en el botón de enviar, se abrirá una nueva ventana o pestaña para procesar el formulario.
+
+3.
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method=" p ost" target="_blank">
+    <fieldset>
+      <legend>LOGIN</legend>
+      Usuario: <input type="text" id="usu3" name="usu3" /><br />
+      Clave: <input type="password" id="clave3" name="clave3" />
+    </fieldset>
+    <input type="reset" id="boton3" name="boton3" value="Enviar" />
+</form>
+
+  En este caso, se crea un formulario con ID "form3" que se enviará por correo electrónico a "xx@xx.com" 
+  utilizando el método POST y el tipo de contenido "text/plain". 
+  Dentro del formulario, hay un campo de usuario y un campo de contraseña dentro de un <fieldset> con la leyenda "LOGIN". 
+  En lugar de un botón de enviar, hay un botón de reinicio (<input type="reset">) que restablecerá los valores del formulario a su estado inicial.
+
+  Las diferencias entre estos segmentos de código radican en la acción del formulario, el método de envío, los elementos de formulario utilizados y el comportamiento del botón de envío. 
+  Cada uno tiene un propósito y un funcionamiento ligeramente diferentes.
+
+--------------------------------------------------------------------------------------------
+3.i)
+--------------------------------------------------------------------------------------------
+1.
+<label>Botón 1
+    <button type="button" name="boton1" id="boton1">
+      <img src="logo.jpg" alt="Botón con imagen " width="30" height="20" /><br />
+      <b>CLICK AQUÍ</b></button>
+</label>
+
+  En este caso, se crea un botón utilizando la etiqueta <button>. 
+  Dentro del botón, se incluye una imagen (<img>) seguida de un texto en negrita (<b>). 
+  El botón se envuelve dentro de una etiqueta <label>. 
+  Este botón está configurado para no enviar ningún formulario cuando se hace clic en él (type="button"). 
+  El botón se identifica por su atributo id="boton1" y se le da un nombre name="boton1".
+
+2.
+<label>Botón 2
+    <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+</label>
+
+  En este caso, se crea un botón utilizando la etiqueta <input> con type="button". 
+  El texto "CLICK AQUÍ" se especifica directamente en el atributo value. 
+  Al igual que en el primer segmento, este botón está envuelto dentro de una etiqueta <label>. 
+  Este botón también está configurado para no enviar ningún formulario cuando se hace clic en él.
+
+  Las diferencias entre estos dos segmentos de código radican principalmente en cómo se crea y personaliza cada botón. 
+  El primer botón utiliza la etiqueta <button> y permite una mayor flexibilidad para incluir contenido HTML dentro de él, como una imagen y texto en negrita. 
+  El segundo botón utiliza la etiqueta <input> y el texto se especifica directamente en el atributo value. 
+  Ambos botones tienen un propósito similar, pero el primero ofrece más opciones de personalización.
+
+--------------------------------------------------------------------------------------------
+3.j)
+--------------------------------------------------------------------------------------------
+1.
+<p><label><input type="radio" name="opcion" id="X" value="X" />X</label><br />
+  <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label>
+</p>
+
+  En este caso, se crean dos botones de opción (<input type="radio">) dentro de un párrafo (<p>). 
+  Ambos botones de opción tienen el mismo atributo name="opcion", lo que significa que pertenecen al mismo grupo de opciones. 
+  El primer botón tiene id="X", value="X" y el texto "X". 
+  El segundo botón tiene id="Y", value="Y" y el texto "Y". Al utilizar la etiqueta <label>, se vincula el texto "X" y "Y" con los botones de opción respectivos.
+
+2.
+<p><label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+  <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label>
+</p>
+
+  En este caso, también se crean dos botones de opción dentro de un párrafo. Sin embargo, hay diferencias en cómo se configuran los botones de opción:
+  El primer botón de opción tiene name="opcion1", lo que significa que pertenece a un grupo diferente de opciones que el segundo botón.
+  El segundo botón de opción tiene name="opcion2", lo que indica que también pertenece a un grupo diferente de opciones.
+
+  Visualmente, ambos segmentos de código generarán botones de opción que permitirán al usuario seleccionar una de las dos opciones ("X" o "Y"). 
+  Sin embargo, los botones del primer segmento están agrupados bajo el mismo nombre (name="opcion"), lo que significa que solo se puede seleccionar una opción a la vez dentro de ese grupo. 
+  En el segundo segmento, los botones están en grupos separados (name="opcion1" y name="opcion2"), lo que permite seleccionar una opción de cada grupo. 
+--------------------------------------------------------------------------------------------
+3.k)
+--------------------------------------------------------------------------------------------
+1.
+<select name="lista">
+  <optgroup label="Caso 1">
+    <option>Mayo</option>
+    <option>Junio</option>
+  </optgroup>
+  <optgroup label="Caso 2">
+    <option>Mayo</option>
+    <option>Junio</option>
+  </optgroup>
+</select>
+
+  En este caso, se crea un elemento de lista desplegable (<select>) con el atributo name="lista". 
+  Dentro de este elemento, hay dos grupos de opciones (<optgroup>). 
+  El primer grupo, etiquetado como "Caso 1", contiene las opciones "Mayo" y "Junio". 
+  El segundo grupo, etiquetado como "Caso 2", también contiene las opciones "Mayo" y "Junio". 
+  Cada grupo organiza las opciones dentro de él y las etiqueta con un título.
+
+2.
+<select name="lista[]" multiple="multiple">
+  <optgroup label=" Caso 1">
+    <option>Mayo</option>
+    <option>Junio</option>
+  </optgroup>
+  <optgroup label=" Caso 2">
+    <option>Mayo</option>
+    <option>Junio</option>
+  </optgroup>
+</select>
+
+  En este caso, se crea otro elemento de lista desplegable (<select>) pero con la diferencia de que se ha añadido el atributo multiple="multiple", lo que permite seleccionar múltiples opciones a la vez. 
+  Además, el nombre del elemento de lista desplegable es "lista[]", indicando que se trata de un array de opciones que puede recibir varios valores. 
+  Los grupos de opciones y las opciones dentro de ellos son los mismos que en el primer segmento de código.
+
+  Visualmente, ambas construcciones generarán listas desplegables con los mismos grupos de opciones y las mismas opciones dentro de ellos. 
+  Sin embargo, el segundo segmento permite seleccionar múltiples opciones a la vez y los valores seleccionados se enviarán como un array llamado "lista[]" cuando se envíe el formulario.
