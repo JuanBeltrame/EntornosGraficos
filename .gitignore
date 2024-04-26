@@ -1,6 +1,5 @@
 
 # Archivo temporales y de desarrollo
-
 *.tmp
 *.temp
 *.bak
