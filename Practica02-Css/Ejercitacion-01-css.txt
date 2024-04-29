@@ -47,11 +47,6 @@ Ejercitacion 01
             El archivo CSS se vincula al documento HTML utilizando la etiqueta <link> dentro del elemento <head>.
             Los estilos se pueden aplicar a múltiples documentos HTML.
 
-    Estilo externo (External Styles):
-    Los estilos se definen en un archivo CSS separado.
-    El archivo CSS se vincula al documento HTML utilizando la etiqueta <link> dentro del elemento <head>.
-    Los estilos se pueden aplicar a múltiples documentos HTML.
-
 --------------------------------------------------------------------------------------------
 4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
 
