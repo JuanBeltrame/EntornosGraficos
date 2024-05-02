@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercitacion 04</title>
+    <style>
+        * {
+            color: green;
+        }
+
+        a:link {
+            color: gray
+        }
+
+        a:visited {
+            color: blue
+        }
+
+        a:hover {
+            color: fuchsia
+        }
+
+        a:active {
+            color: red
+        }
+
+        p {
+            font-family: arial, helvetica;
+            font-size: 10px;
+            color: black;
+        }
+
+        .contenido {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="contenido" style="font-weight: normal;">
+        Este es un texto ...............</p>
+    <table>
+        <tr>
+            <td>Y esta es una tabla.......</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.google.com.ar">con un
+                    enlace</a></td>
+        </tr>
+    </table>
+</body>
+
+
+<body class="contenido">
+    <p> Este es un texto................</p>
+    <table>
+        <tr>
+            <td>Y esta es una tabla.......</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.google.com.ar">con
+                    un enlace</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+<!--
+--------------------------------------------------------------------------------------------   
+Primer Código HTML:
+--------------------------------------------------------------------------------------------
+1. <p class="contenido" style="font-weight: normal;">: 
+    Este párrafo tiene la clase "contenido" y se le aplica un estilo adicional en línea que establece el peso de la fuente en normal. 
+    La clase "contenido" también tiene una regla CSS que establece el tamaño de la fuente en 14px y el peso de la fuente en negrita, 
+    pero la regla en línea anula esto y establece el peso de la fuente en normal. 
+    Por lo tanto, el texto dentro del párrafo tendrá un tamaño de fuente de 14px (heredado de la clase "contenido") 
+    pero el peso de la fuente será normal.
+
+2. <table>: 
+    No hay ninguna regla específica para las tablas, 
+    por lo que heredarán las propiedades de fuente y color del elemento <body>.
+
+3. <a href="http://www.google.com.ar">con un enlace</a>: 
+    Los enlaces tienen varios estados definidos en las reglas CSS. 
+    Por defecto, los enlaces tendrán un color verde (color:green;). 
+    Sin embargo, al ser un enlace, su color cambiará según el estado del enlace:
+    Por defecto (a:link): Gris (color:gray)
+    Visitado (a:visited): Azul (color:blue)
+    Al pasar el ratón por encima (a:hover): Fucsia (color:fuchsia)
+    Al hacer clic (a:active): Rojo (color:red)
+
+--------------------------------------------------------------------------------------------   
+Segundo Código HTML:
+--------------------------------------------------------------------------------------------
+1. <body class="contenido">: 
+    Se aplica la clase "contenido" al <body>, lo que significa que se heredarán las propiedades de fuente y color definidas en la regla .contenido.
+
+2. <p>: 
+    Este párrafo no tiene ninguna clase específica, 
+    por lo que heredará las propiedades de fuente y color definidas en la regla p, 
+    es decir, Arial o Helvetica como fuente, 10px como tamaño de fuente y color negro (color:black;).
+
+3. <table>: 
+    Como en el primer código, heredará las propiedades de fuente y color del elemento <body>.
+
+4. <a href="http://www.google.com.ar">con un enlace</a>: 
+    Al igual que en el primer código, el color del enlace variará según su estado.
+
+-------------------------------------------------------------------------------------------- 
+Comparación de efectos:
+-------------------------------------------------------------------------------------------- 
+. En el primer código, el texto dentro del párrafo tiene un peso de fuente normal debido a la regla CSS en línea, 
+mientras que en el segundo código, el texto dentro del párrafo hereda el peso de fuente negrita de la clase "contenido".
+
+. En ambos códigos, el color de los enlaces cambiará según su estado (por defecto, visitado, hover, activo).
+
+. La tabla en ambos códigos tendrá las mismas propiedades de fuente y color, ya que heredan del elemento <body> que tiene la clase "contenido" aplicada en el segundo código.
+-->
