@@ -1,3 +1,7 @@
-<h1>EntornosGraficos-</h1>
-Hecho por: Juan Beltrame.
-Trabajos prácticos realizados para la materia electiva Entornos Gráficos de la UTN F.R.R.O.
+<h1>EntornosGraficos - Universidad Tecnológica Nacional (U.T.N FRRo)</h1>
+<p>
+Hecho por: Juan Beltrame.<br>
+Practicas realizados para la materia electiva Entornos Gráficos de la UTN FRRo
+</p>
+
+
