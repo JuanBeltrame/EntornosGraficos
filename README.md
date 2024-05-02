@@ -1,1 +1,3 @@
-Repositorio dedicado a la asignatura electiva 'Entornos Gráficos' de la carrera de Ingeniería en Sistemas de Información. Su propósito es presentar las entregas asignadas a lo largo de todo el cuatrimestre.
+EntornosGraficos-UTN-2021
+Hecho por: Juan Beltrame.
+Trabajos prácticos realizados para la materia electiva Entornos Gráficos de la UTN F.R.R.O.
