@@ -49,13 +49,62 @@ Ejercitacion 01
 
 --------------------------------------------------------------------------------------------
 4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+Los tipos de selectores más utilizados en CSS son:
 
+    - Selector de elemento o etiqueta: Selecciona todos los elementos de un tipo específico.  
+      Ejemplo: p { color: blue; }
+
+    - Selector de clase: Selecciona todos los elementos que tienen un atributo class específico.  
+      Ejemplo: .mi-clase { font-size: 18px; }
+
+    - Selector de ID: Selecciona un elemento único con un atributo id específico.  
+      Ejemplo: #mi-id { background: yellow; }
+
+    - Selector de descendiente: Selecciona elementos que están dentro de otros elementos.  
+      Ejemplo: div p { margin: 10px; }
+
+    - Selector de atributo: Selecciona elementos que tienen un atributo o valor de atributo específico.  
+      Ejemplo: input[type="text"] { border: 1px solid #ccc; }
+
+    - Selector universal: Selecciona todos los elementos del documento.  
+      Ejemplo: * { box-sizing: border-box; }
 
 --------------------------------------------------------------------------------------------
 Ejemplifique cada uno.
 5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+
+    Una pseudo-clase es una palabra clave precedida por dos puntos (:) que se añade a los selectores para definir un estado especial de un elemento. Permite aplicar estilos cuando un elemento está en un estado particular, como cuando el usuario pasa el mouse sobre él o cuando un enlace ha sido visitado.
+
+    Las pseudo-clases más utilizadas en vínculos son:
+      - :link — Selecciona enlaces no visitados.
+      - :visited — Selecciona enlaces que ya han sido visitados.
+      - :hover — Selecciona un elemento cuando el puntero del mouse está sobre él.
+      - :active — Selecciona un elemento en el momento en que es activado (por ejemplo, al hacer clic).
+
+    Ejemplo:
+        a:link { color: blue; }
+        a:visited { color: purple; }
+        a:hover { color: red; }
+        a:active { color: green; }
+
 --------------------------------------------------------------------------------------------
 6. ¿ Qué es la herencia?
+
+    La herencia en CSS es el mecanismo por el cual ciertos estilos aplicados a un elemento padre se transmiten automáticamente a sus elementos hijos. No todas las propiedades de CSS son heredadas, pero muchas relacionadas con el texto, como color, font-family y font-size, sí lo son. Esto permite mantener estilos consistentes y reducir la repetición de reglas en el código.
+
+    Ejemplo:
+        body { color: #333; font-family: Arial, sans-serif; }
+        /* Todos los elementos dentro de <body> heredarán el color y la fuente, a menos que se sobrescriba */
+
 --------------------------------------------------------------------------------------------
 7. ¿ En qué consiste el proceso denominado cascada?
---------------------------------------------------------------------------------------------
+
+    El proceso denominado cascada en CSS es el mecanismo que determina qué reglas de estilo se aplican a un elemento cuando existen múltiples reglas que podrían afectarlo. La cascada evalúa el origen de los estilos (hojas externas, internas o en línea), la especificidad de los selectores y el orden en que aparecen las reglas. 
+
+    El navegador sigue estas prioridades para decidir qué estilo aplicar:
+      1. Importancia (por ejemplo, reglas con !important).
+      2. Origen de la hoja de estilos (usuario, autor, navegador).
+      3. Especificidad del selector (ID > clase > elemento).
+      4. Orden de aparición (la última regla tiene prioridad si hay empate).
+
+    Gracias a la cascada, CSS permite combinar y sobrescribir estilos de manera predecible y flexible.
