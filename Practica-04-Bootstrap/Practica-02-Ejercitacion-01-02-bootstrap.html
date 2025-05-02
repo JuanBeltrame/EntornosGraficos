@@ -12,7 +12,7 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -31,41 +31,20 @@
     -->
     <p class="h1 text-center"> Ejercitacion 01 </p>
     <hr>
-    <div class="container text-center">
-        <!-- Fila 1: Una columna que ocupa el 100% del ancho -->
-        <div class="row">
-            <div class="col-12 contenedor">
-                Columna 1
+    <div class="container px-3 text-center">
+        <!-- Fila 1: Siempre ocupa el 100% -->
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="p-3 contenedor">12</div>
             </div>
         </div>
-        <div class="row">
-            <!-- Fila 2: Dos columnas que ocupan el 50% del ancho cada una -->
-            <div class="col-6 contenedor">
-                Columna 1
+        <!-- Fila 2: Dos columnas en md+, apiladas en sm- -->
+        <div class="row gx-3">
+            <div class="col-6 col-sm-12 mb-3">
+                <div class="p-3 contenedor">6</div>
             </div>
-            <div class="col-6 contenedor">
-                Columna 2
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="container text-center contenedor">
-        <!-- Fila 1 para sm y menores: Una columna que ocupa el 100% del ancho -->
-        <div class="row">
-            <div class="col-sm contenedor">
-                Columna 1
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm contenedor">
-                Columna 1
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm contenedor">
-                Columna 1
+            <div class="col-md-6 col-sm-12">
+                <div class="p-3 contenedor">6</div>
             </div>
         </div>
     </div>
@@ -84,35 +63,58 @@
     --------------------------------------------------------------------------------------------
     -->
     <p class="h1 text-center"> Ejercitacion 02 </p>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12 contenedor">1</div>
+    <hr>
+    <div class="container px-3 text-center">
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="p-5 contenedor">12</div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-3 contenedor">1</div>
-            <div class="col-9 contenedor">
-                <div class="row">
-                    <div class="col-12 contenedor">1</div>
-                <div class="row">
-                    <div class="col-4 contenedor">1</div>
-                    <div class="col-4 contenedor">2</div>
-                    <div class="col-4 contenedor">3</div>
+        <div class="row align-items-stretch">
+            <div class="col-3">
+                <div class="h-100 p-5 contenedor">3</div>
+            </div>
+            <div class="col-9">
+                <div class="row mb-3">
+                    <div class="col-12 ">
+                        <div class="p-3 contenedor">12</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="p-3 contenedor"> 4</div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-4 contenedor">1</div>
-                    <div class="col-4 contenedor">2</div>
-                    <div class="col-4 contenedor">3</div>
-                </div>
-                <div class="row">
-                    <div class="col-6 contenedor">1</div>
-                    <div class="col-6 contenedor">2</div>
-                </div>
-                <div class="row">
-
+                    <div class="col-4">
+                        <div class="p-5 contenedor"> 4</div>
+                    </div>
+                    <div class="col-8">
+                        <div class="p-5 contenedor"> 8</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
 </body>
 
 </html>
