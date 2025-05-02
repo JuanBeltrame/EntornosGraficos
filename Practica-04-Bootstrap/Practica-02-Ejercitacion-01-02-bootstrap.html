@@ -12,43 +12,7 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
 
-    <style>
-        .row {
-            background-color: purple;
-            border: 3px solid rgb(110, 73, 5);
-            padding: 5px;
-            ;
-            margin: 10px;
-        }
-
-        .col {
-            background-color: #d40655;
-            color: white;
-            font-size: 50px;
-            border: 2px solid #640328;
-        }
-
-        .col-sm {
-            background-color: #d40655;
-            color: white;
-            font-size: 50px;
-            border: 2px solid #640328;
-        }
-
-        .col-12 {
-            background-color: #d40655;
-            color: white;
-            font-size: 50px;
-            border: 2px solid #640328;
-        }
-
-        .col-md-8 {
-            background-color: #d40655;
-            color: white;
-            font-size: 50px;
-            border: 2px solid #640328;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css" />
 </head>
 
 <body>
@@ -65,19 +29,21 @@
     con 1 columna que ocupe el 100% del ancho en cada una, como se detalla en el siguiente ejemplo:
     --------------------------------------------------------------------------------------------
     -->
+    <p class="h1 text-center"> Ejercitacion 01 </p>
+    <hr>
     <div class="container text-center">
         <!-- Fila 1: Una columna que ocupa el 100% del ancho -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 contenedor">
                 Columna 1
             </div>
         </div>
         <div class="row">
             <!-- Fila 2: Dos columnas que ocupan el 50% del ancho cada una -->
-            <div class="col-6">
-                Columan 1
+            <div class="col-6 contenedor">
+                Columna 1
             </div>
-            <div class="col-6">
+            <div class="col-6 contenedor">
                 Columna 2
             </div>
         </div>
@@ -85,20 +51,20 @@
     <br>
     <br>
     <br>
-    <div class="container text-center">
+    <div class="container text-center contenedor">
         <!-- Fila 1 para sm y menores: Una columna que ocupa el 100% del ancho -->
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm contenedor">
                 Columna 1
             </div>
         </div>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm contenedor">
                 Columna 1
             </div>
         </div>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm contenedor">
                 Columna 1
             </div>
         </div>
@@ -117,14 +83,34 @@
     Utilizar el segundo mockup para el tamaño sm.
     --------------------------------------------------------------------------------------------
     -->
+    <p class="h1 text-center"> Ejercitacion 02 </p>
     <div class="container text-center">
         <div class="row">
-            <div class="col">
-                <p>Columna 1</p>
-            </div>
+            <div class="col-12 contenedor">1</div>
         </div>
         <div class="row">
+            <div class="col-3 contenedor">1</div>
+            <div class="col-9 contenedor">
+                <div class="row">
+                    <div class="col-12 contenedor">1</div>
+                <div class="row">
+                    <div class="col-4 contenedor">1</div>
+                    <div class="col-4 contenedor">2</div>
+                    <div class="col-4 contenedor">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-4 contenedor">1</div>
+                    <div class="col-4 contenedor">2</div>
+                    <div class="col-4 contenedor">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 contenedor">1</div>
+                    <div class="col-6 contenedor">2</div>
+                </div>
+                <div class="row">
 
+                </div>
+            </div>
         </div>
     </div>
 </body>
