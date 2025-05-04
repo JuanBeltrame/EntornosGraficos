@@ -65,7 +65,7 @@ doc/
 # Archivos de imágenes optimizadas
 
 #*.webp
-*.avif
+.avif
 *.jpg.webp
 *.png.webp
 *.svg.webp
